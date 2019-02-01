@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.muke.app.R;
 import com.muke.app.fragment.base.BaseFragment;
 
-public class MseeageFragment extends BaseFragment {
+public class MessageFragment extends BaseFragment {
     private  View mContentView;
     @Nullable
     @Override
