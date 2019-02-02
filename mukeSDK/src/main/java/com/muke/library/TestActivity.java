@@ -20,6 +20,7 @@ public class TestActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         OkHttpClient okHttpClient = new OkHttpClient();
         Request request = new Request.Builder().url("https:www.imooc.com/").build();
         Call call = okHttpClient.newCall(request);
