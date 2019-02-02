@@ -25,6 +25,5 @@ public class CommonRequest {
         }
         FormBody mFormBody = mFormBodyBuilder.build();
         return new Request.Builder().url(url).post(mFormBody).build();
-
     }
 }
